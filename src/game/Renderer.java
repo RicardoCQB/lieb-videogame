@@ -22,9 +22,7 @@ public class Renderer {
     }
 
     public void init() throws Exception {
-        shaderProgram = new ShaderProgram();
-        shaderProgram.createVertexShader(Utils.loadResource("fragment.fs"));
-        shaderProgram.createFragmentShader(Utils.loadResource("vertex.vs"));
+        shaderProgram = new ShaderProgram();        
         shaderProgram.link();
     }
 
