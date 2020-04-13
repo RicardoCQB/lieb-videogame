@@ -93,6 +93,8 @@ public class Window {
 
         // Set the clear color
         glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
+        
+        MyTexture texture2 = new MyTexture("./src/resource/sea.png");
     }
     
     public void setClearColor(float r, float g, float b, float alpha) {

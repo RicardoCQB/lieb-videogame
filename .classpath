@@ -276,5 +276,15 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Ricardo/Downloads/lib/ibxm.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ricardo/Downloads/lib/jogg-0.0.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ricardo/Downloads/lib/jorbis-0.0.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ricardo/Downloads/lib/lwjgl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ricardo/Downloads/lib/lwjgl_util.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ricardo/Downloads/lib/lwjgl_util_applet.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ricardo/Downloads/lib/natives-linux.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ricardo/Downloads/lib/natives-mac.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ricardo/Downloads/lib/natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ricardo/Downloads/lib/slick-util.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

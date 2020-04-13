@@ -19,11 +19,13 @@ public class Renderer {
     private ShaderProgram shaderProgram;
 
     public Renderer() {
+    	
     }
 
     public void init() throws Exception {
+    	/*
         shaderProgram = new ShaderProgram();        
-        shaderProgram.link();
+        shaderProgram.link();*/
     }
 
     public void clear() {
