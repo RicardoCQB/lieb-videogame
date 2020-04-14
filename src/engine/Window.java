@@ -87,19 +87,7 @@ public class Window {
         // Make the window visible
         glfwShowWindow(windowHandle);
         
-        GL.createCapabilities();
-        
-        glEnable(GL_TEXTURE_2D);
-
-        float[] vertices = new float[] {
-        		-1, -1, 0,
-        		0, 1, 0,
-        		1, -1, 0
-        };
-        
-        Model model = new Model(vertices);
-        model.render();
-                
+        GL.createCapabilities();              
     }
     
     public void setClearColor(float r, float g, float b, float alpha) {
