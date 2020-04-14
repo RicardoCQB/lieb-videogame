@@ -32,8 +32,7 @@ public class Game implements IGameLogic{
 
 	@Override
 	public void render(Window window) {
-		// TODO Auto-generated method stub
-		
+		renderer.render(window);		
 	}
 
 	@Override

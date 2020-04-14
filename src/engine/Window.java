@@ -4,9 +4,7 @@ import static org.lwjgl.glfw.GLFW.*;
 import org.lwjgl.glfw.GLFWErrorCallback;
 import org.lwjgl.glfw.GLFWVidMode;
 import org.lwjgl.opengl.GL;
-import static org.lwjgl.opengl.GL11.GL_FALSE;
-import static org.lwjgl.opengl.GL11.GL_TRUE;
-import static org.lwjgl.opengl.GL11.glClearColor;
+import static org.lwjgl.opengl.GL11.*;
 import static org.lwjgl.system.MemoryUtil.NULL;
 
 public class Window {
@@ -90,11 +88,18 @@ public class Window {
         glfwShowWindow(windowHandle);
         
         GL.createCapabilities();
-
-        // Set the clear color
-        glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
         
-        MyTexture texture2 = new MyTexture("./src/resource/sea.png");
+        glEnable(GL_TEXTURE_2D);
+
+        float[] vertices = new float[] {
+        		-1, -1, 0,
+        		0, 1, 0,
+        		1, -1, 0
+        };
+        
+        Model model = new Model(vertices);
+        model.render();
+                
     }
     
     public void setClearColor(float r, float g, float b, float alpha) {
